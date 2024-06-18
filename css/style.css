@@ -1,2 +1,10 @@
+/*global*/
 @import'../css/global/global.css';
-@import'./home.css'
+
+/*home*/
+@import'../css/home/introducao.css';
+
+/*ultilidades*/
+@import'../css/ultilidades/componentes.css';
+@import'../css/ultilidades/cores.css';
+@import'../css/ultilidades/tipografia.css';

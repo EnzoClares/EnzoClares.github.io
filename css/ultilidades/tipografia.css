@@ -1,0 +1,36 @@
+.fonte-rb-gg{
+  font: 700 4rem/1.124, 'roboto', sans-serif;
+}
+
+.fonte-pp-g{
+  font: 600 2.5rem/1.24, 'poppins', sans-serif;
+}
+
+.fonte-rb-m{
+  font: 700 1.5rem/1.2, 'roboto', sans-serif;
+}
+
+.fonte-pp-m{
+  font: 400 1.5rem/1.2, 'poppins', sans-serif;
+}
+
+.fonte-rb-p-700{
+  font: 700 1.25rem/1.2, 'roboto', sans-serif;
+}
+
+.fonte-rb-p-400{
+  font: 400 1.25rem/1.2, 'roboto', sans-serif;
+}
+
+.fonte-rb-px-700{
+  font: 700 1.125rem/1.2, 'roboto', sans-serif
+}
+
+.fonte-rb-px-400{
+  font: 400 1.125rem/1.2, 'roboto', sans-serif
+}
+
+.font-pp-p{
+  font: 400 1rem/1.2, 'poppins', sans-serif;
+}
+
