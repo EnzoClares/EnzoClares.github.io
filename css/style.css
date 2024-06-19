@@ -1,5 +1,7 @@
 /*global*/
 @import'../css/global/global.css';
+@import'../css/global/header.css';
+@import'../css/global/footer.css';
 
 /*home*/
 @import'../css/home/introducao.css';
