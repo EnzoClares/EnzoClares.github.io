@@ -1,0 +1,47 @@
+.introducao-bg{
+  background-color: var(--cor-11);
+  padding: 40px 0px;
+}
+
+.introducao{
+  display: grid;
+}
+
+.introducao h1{
+  margin-bottom: 20px;
+}
+
+.introducao p{
+  margin-bottom: 20px;
+}
+
+.introducao ul{
+  display: flex;
+  gap: 20px;
+}
+
+.introducao li{
+  display: flex;
+  max-width: 20ch;
+}
+
+.introducao p{
+  display: inline-block;
+  align-content: center;
+}
+
+.introducao li img{
+  align-content: center;
+}
+
+.aprenda{
+  position: relative;
+}
+
+.aprenda::after{
+  content: '';
+  background-image: url(../../img/check_circle_24dp_FILL0_wght400_GRAD0_opsz24\ 1.svg);
+  position: absolute;
+  top: 10px;
+  display: block;
+}
