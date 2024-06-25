@@ -5,43 +5,57 @@
 
 .introducao{
   display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  justify-content: center;
+  margin-bottom: 60px;
 }
 
 .introducao h1{
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  grid-column: 1/-1;
+  position: relative;
+  z-index: 1;
+}
+
+.introducao h1::after{
+  content: '';
+  width: 296px;
+  height: 70px;
+  background-image: url(../../img/detalhe-EE-menor.svg);
+  position: absolute;
+  left: -10px;
+  top: 80px;
+  z-index: -1;
 }
 
 .introducao p{
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  grid-column: 2;
+  display: inline-block;
+  align-content: center;
 }
 
 .introducao ul{
   display: flex;
   gap: 20px;
+  grid-column: 1/-1;
+  justify-content: center;
+margin-bottom: 30px;
 }
 
 .introducao li{
   display: flex;
-  max-width: 20ch;
+  max-width: 30ch;
+  align-items: center;
+  gap: 10px;
 }
 
-.introducao p{
-  display: inline-block;
-  align-content: center;
-}
-
-.introducao li img{
-  align-content: center;
-}
-
-.aprenda{
+.centralize{
+  grid-column: 2;
   position: relative;
 }
 
-.aprenda::after{
-  content: '';
-  background-image: url(../../img/check_circle_24dp_FILL0_wght400_GRAD0_opsz24\ 1.svg);
+.centralize a{
   position: absolute;
-  top: 10px;
-  display: block;
+  left: 80px;
 }
